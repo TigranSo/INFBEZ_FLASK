@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for category, message in messages %}
+                    <li class="{{ category }} message">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="/documents">Все</a></li>
+                {% for category in categorys %}
+                    <li class="list-inline-item"><b class="point-text">{{ category.name }}</b></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-12 card-margin">
+            <div class="card search-form">                
+                <div class="card-body p-0">
+                    <form id="search-form" onsubmit="searchDocuments(); return false;">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-1 ">
+                                        <!-- <select class="form-control" id="exampleFormControlSelect1">
+                                            {% for category in categorys %}
+                                                <option>{{category.name}}</option>
+                                            {% endfor %}
+                                        </select> -->
+                                    </div>
+                                    <div class="col-lg-8 col-md-6 col-sm-12 p-0">
+                                        <input type="text" placeholder="Поиск..." class="form-control" id="search" name="search" required>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-12 p-0">
+                                        <button type="submit" class="btn btn-base">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% for document in documents %}
+    <div class="row" id="search-results">
+            <div class="col-12">
+                <div class="card-margin">
+                    <div class="card-body">
+                        <div class="row search-body">
+                            <div class="col-lg-12">
+                                <div class="search-result">
+                                    <div class="result-body">
+                                        <div class="table-responsive">
+                                            <table class="table widget-26">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="widget-26-job-emp-img">
+                                                                {% if document.user.username == "admin" %}
+                                                                    <img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="Company" />
+                                                                {% else %}
+                                                                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Company" />
+                                                                {% endif %}
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="widget-26-job-title">
+                                                                <a href="#"><b>{{document.user.username}}</b></a>
+                                                                <p class="m-0" class="employer-name"><b> {{document.name}} </b></p><br>
+                                                                <p class="m-0" class="employer-name">{{document.description}}</p>
+                                                                <span class="text-muted time">{{document.created_at.strftime('Дата: %Y-%m-%d' )}}</span><br>
+                                                                <span class="text-muted time">{{document.created_at.strftime('Время: %H:%M:%S' )}}</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="widget-26-job-info">
+                                                                <p class="type m-0">Дисциплина</p>
+                                                                <p class="text-muted m-2"><span class="location">{{document.category}}</span></p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="widget-26-job-category bg-soft-base">
+                                                                <i class="indicator bg-base"></i>
+                                                                <span>{{document.filename}}</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            {% if current_user.is_authenticated %}
+                                                                <a href="../../static/files/{{document.filename}}">
+                                                                    <div class="widget-26-job-category bg-soft-base" style="background-color: cornflowerblue;">
+                                                                        <i class="indicator bg-base"></i>
+                                                                            <span class="text-light">читать</span>
+                                                                    </div>
+                                                                </a>
+                                                            {% else %}
+                                                                <a href="/login">
+                                                                    <div class="widget-26-job-category bg-soft-base" style="background-color: cornflowerblue;">
+                                                                        <i class="indicator bg-base"></i>
+                                                                            <span class="text-light">читать</span>
+                                                                    </div>
+                                                                </a>
+                                                            {% endif %}
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------------ -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+<!-- <section class="catalog">
+    <div class="panel m-md-3 mt-0 p-3">
+        <div class="row mb-4">
+            </div>
+                <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card thumbnail-2 shadow-sm mb-3">
+            <div class="card-img-top p-3">
+                <a class="d-block" href="/doc/3948020/russkij-yazyk.-chast._-1.---a.-m.-zemskij-i-drugie">
+                    <img class="img-fluid w-100" src="//s1.studylib.ru/store/data/003948020_1-1ea5ed6febcb38f96ca0bc56b7a93cec-300x300.png" alt="Русский язык. Часть 1. - А. М. Земский и другие" width="300" height="300">
+                </a>
+            </div>
+            <div class="card-body p-3">
+                <a class="card-link stretched-link" href="/doc/3948020/russkij-yazyk.-chast._-1.---a.-m.-zemskij-i-drugie" title="Русский язык. Часть 1. - А. М. Земский и другие">
+                    <div class="text-truncate3">Русский язык. Часть 1. - А. М. Земский и другие</div>
+                </a>
+        </div>
+    </div>
+</section> -->
+{% endblock %}

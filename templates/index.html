@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for category, message in messages %}
+                    <li class="{{ category }} message">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}<br>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Добро пожаловать на INFBEZ! </h1>
+          <p class="col-md-8 fs-4">Мы стремимся обеспечить безопасное хранение и доступ к информации. На нашем сайте вы найдете широкий спектр документов, подобно википедии, предоставляющих разнообразные знания и материалы.</p>
+          <a href="/documents" class="btn btn-primary btn-lg" type="button">Поиск документов</a>
+        </div>
+      </div>
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h2>Мы уделяем большое внимание безопасности. </h2>
+            <p>Пароли пользователей хранятся в зашифрованном виде, обеспечивая их защиту от несанкционированного доступа. Кроме того, мы применяем шифрование для сохранения конфиденциальности информации, чтобы гарантировать безопасность хранения данных.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-light border rounded-3">
+            <h2>NFBEZ создан для удобства поиска информации</h2>
+            <p>а также обеспечения безопасности данных. Мы приглашаем вас исследовать нашу библиотеку документов и убедиться в удобстве использования и безопасности, которые мы обеспечиваем.</p>
+          </div>
+        </div>
+      </div><br>
+    <div class="row" id="search-results">
+        {% for document in documents %}
+            <div class="col-12">
+                <div class="card card-margin">
+                    <div class="card-body">
+                        <div class="row search-body">
+                            <div class="col-lg-12">
+                                <div class="search-result">
+                                    <div class="result-body">
+                                        <div class="table-responsive">
+                                            <table class="table widget-26">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="widget-26-job-emp-img">
+                                                                {% if document.user.username == "admin" %}
+                                                                    <img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="Company" />
+                                                                {% else %}
+                                                                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Company" />
+                                                                {% endif %}
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="widget-26-job-title">
+                                                                <a href="#"><b>{{document.user.username}}</b></a>
+                                                                <p class="m-0" class="employer-name"><b> {{document.name}} </b></p><br>
+                                                                <p class="m-0" class="employer-name">{{document.description}}</p>
+                                                                <span class="text-muted time">{{document.created_at.strftime('Дата: %Y-%m-%d' )}}</span><br>
+                                                                <span class="text-muted time">{{document.created_at.strftime('Время: %H:%M:%S' )}}</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="widget-26-job-info">
+                                                                <p class="type m-0">Дисциплина</p>
+                                                                <p class="text-muted m-2"><span class="location">{{document.category}}</span></p>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="widget-26-job-category bg-soft-base">
+                                                                <i class="indicator bg-base"></i>
+                                                                <span>{{document.filename}}</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            {% if current_user.is_authenticated %}
+                                                                <a href="../../static/files/{{document.filename}}">
+                                                                    <div class="widget-26-job-category bg-soft-base" style="background-color: cornflowerblue;">
+                                                                        <i class="indicator bg-base"></i>
+                                                                            <span class="text-light">читать</span>
+                                                                    </div>
+                                                                </a>
+                                                            {% else %}
+                                                                <a href="/login">
+                                                                    <div class="widget-26-job-category bg-soft-base" style="background-color: cornflowerblue;">
+                                                                        <i class="indicator bg-base"></i>
+                                                                            <span class="text-light">читать</span>
+                                                                    </div>
+                                                                </a>
+                                                            {% endif %}
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------------ -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

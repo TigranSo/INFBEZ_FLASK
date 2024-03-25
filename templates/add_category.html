@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+  <br>
+  <h1>Добавить дисциплину</h1><br>
+  {% if current_user.username == "admin" or current_user.role == "moderator" %}
+    <form method="POST" action="" enctype="multipart/form-data">
+      <div class="form-group">
+          <label for="name">Дисциплина:</label>
+          <input type="text" class="form-control" name="name" id="name" required>
+      </div>
+      <div class="form-group">
+          <input type="submit" class="btn btn-primary" value="Добавить">
+      </div>
+    </form>
+  {% elif current_user.role == "editor" %}
+    <p>У вас не доступа добавить дисциплину.</p>
+  {% else %}
+
+  {% endif %}
+
+</div>
+{% endblock %}

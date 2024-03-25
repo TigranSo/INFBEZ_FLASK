@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ url_for('static', filename ='main.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    {% block title %}{% endblock %}
+</head>
+<body class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Главная</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/documents">Документы <span class="sr-only"></span></a>
+        </li>
+        {% if not current_user.is_authenticated %}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Войти или зарегистрироваться
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/login">Войти</a>
+              <a class="dropdown-item" href="/register">Регистрация</a>
+            </div>
+          </li>
+        {% else %}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ current_user.username }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              {% if current_user.username == "admin" or current_user.role == "moderator" or current_user.role == "editor" %}
+                <a class="dropdown-item" href="/admin">{{ current_user.username }}</a>
+                <a class="dropdown-item" href="/add_document">Добавить документ</a>
+                <a class="dropdown-item" href="/add_category">Добавить дисциплину</a>
+              {% else %}
+
+              {% endif %}
+              <a class="dropdown-item" href="{{url_for('logout')}}">Выход</a>
+            </div>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+  {% block content %}{% endblock %}
+  <footer class="text-center text-white">
+    <div class="container p-4">
+    </div>
+    <div class="text-center p-3" style="background-color: #abadaf;">
+      © 2023 INFBEZ:
+      <a class="text-white" href="/">INFBEZ.ru</a>
+    </div>
+  </footer>
+  <script src="{{ url_for('static', filename ='search.js') }}"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</body>
+</html>

@@ -1,0 +1,907 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "LoginManager",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SubmitField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SelectField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "InputRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Length",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "InputRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "InputRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Bcrypt",
+        "importPath": "flask_bcrypt",
+        "description": "flask_bcrypt",
+        "isExtraImport": true,
+        "detail": "flask_bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {}
+    },
+    {
+        "label": "Admin",
+        "importPath": "flask_admin",
+        "description": "flask_admin",
+        "isExtraImport": true,
+        "detail": "flask_admin",
+        "documentation": {}
+    },
+    {
+        "label": "expose",
+        "importPath": "flask_admin",
+        "description": "flask_admin",
+        "isExtraImport": true,
+        "detail": "flask_admin",
+        "documentation": {}
+    },
+    {
+        "label": "ModelView",
+        "importPath": "flask_admin.contrib.sqla",
+        "description": "flask_admin.contrib.sqla",
+        "isExtraImport": true,
+        "detail": "flask_admin.contrib.sqla",
+        "documentation": {}
+    },
+    {
+        "label": "secure_filename",
+        "importPath": "werkzeug.utils",
+        "description": "werkzeug.utils",
+        "isExtraImport": true,
+        "detail": "werkzeug.utils",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Select2Widget",
+        "importPath": "flask_admin.form",
+        "description": "flask_admin.form",
+        "isExtraImport": true,
+        "detail": "flask_admin.form",
+        "documentation": {}
+    },
+    {
+        "label": "Fernet",
+        "importPath": "cryptography.fernet",
+        "description": "cryptography.fernet",
+        "isExtraImport": true,
+        "detail": "cryptography.fernet",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "env.Scripts.activate_this",
+        "description": "env.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "env.Scripts.activate_this",
+        "description": "env.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]",
+        "detail": "env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "env.Scripts.activate_this",
+        "description": "env.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "env.Scripts.activate_this",
+        "description": "env.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "env.Scripts.activate_this",
+        "description": "env.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "env.Scripts.activate_this",
+        "description": "env.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "env.Scripts.activate_this",
+        "description": "env.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "env.Scripts.activate_this",
+        "description": "env.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.0b91b8766bb9_",
+        "description": "migrations.versions.0b91b8766bb9_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=30), nullable=False),\n    sa.Column('password', sa.String(length=80), nullable=False),\n    sa.PrimaryKeyConstraint('id'),\n    sa.UniqueConstraint('username')\n    )\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.0b91b8766bb9_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.0b91b8766bb9_",
+        "description": "migrations.versions.0b91b8766bb9_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('user')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.0b91b8766bb9_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.0b91b8766bb9_",
+        "description": "migrations.versions.0b91b8766bb9_",
+        "peekOfCode": "revision = '0b91b8766bb9'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=30), nullable=False),\n    sa.Column('password', sa.String(length=80), nullable=False),",
+        "detail": "migrations.versions.0b91b8766bb9_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.0b91b8766bb9_",
+        "description": "migrations.versions.0b91b8766bb9_",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=30), nullable=False),\n    sa.Column('password', sa.String(length=80), nullable=False),\n    sa.PrimaryKeyConstraint('id'),",
+        "detail": "migrations.versions.0b91b8766bb9_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.0b91b8766bb9_",
+        "description": "migrations.versions.0b91b8766bb9_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=30), nullable=False),\n    sa.Column('password', sa.String(length=80), nullable=False),\n    sa.PrimaryKeyConstraint('id'),\n    sa.UniqueConstraint('username')",
+        "detail": "migrations.versions.0b91b8766bb9_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.0b91b8766bb9_",
+        "description": "migrations.versions.0b91b8766bb9_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=30), nullable=False),\n    sa.Column('password', sa.String(length=80), nullable=False),\n    sa.PrimaryKeyConstraint('id'),\n    sa.UniqueConstraint('username')\n    )",
+        "detail": "migrations.versions.0b91b8766bb9_",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine_url",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(\n            '%', '%%')\n    except AttributeError:\n        return str(get_engine().url).replace('%', '%%')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_db",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_db = current_app.extensions['migrate'].db\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "AdminView",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class AdminView(ModelView):\n    def is_accessible(self):\n        return current_user.is_authenticated and current_user.is_admin()\n    def inaccessible_callback(self, name, **kwargs):\n        return redirect(url_for('login'))\n    form_extra_fields = {\n        'role': SelectField(\n            'Role',\n            choices=[\n                ('admin', 'Admin'), ",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Registerform",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class Registerform(FlaskForm):\n\t\"\"\"Регистрация пользоватля \"\"\"\n\tusername = StringField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Имя\"})\n\tpassword = PasswordField(validators=[InputRequired(), Length(min=8, max=20)], render_kw={\"placeholder\": \"Пароль\"})\n\tsubmit = SubmitField('Зарегистрироваться')\n\tdef validate_username(self,username):\n\t\texisting_user_username = User.query.filter_by(username=username.data).first()\n\t\tif existing_user_username:\n\t\t\tflash('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.', 'error')\n\t\t\traise ValidationError('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Loginform",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class Loginform(FlaskForm):\n\t\"\"\"Вход пользователя \"\"\"\n\tusername = StringField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Имя\"})\n\tpassword = PasswordField(validators=[InputRequired(), Length(min=8, max=20)], render_kw={\"placeholder\": \"Пароль\"})\n\tsubmit = SubmitField('Войти')\n#Модели --------------------------------------------\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    role = db.Column(db.String(20), nullable=True) \n    username = db.Column(db.String(30), nullable=False, unique=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    role = db.Column(db.String(20), nullable=True) \n    username = db.Column(db.String(30), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\n    documents = db.relationship('Document', back_populates='user')\n    def is_admin(self):\n        return self.role == 'admin'\nclass Document(db.Model):\n    id = db.Column(db.Integer, primary_key=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class Document(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    _name = db.Column('name', db.String(255), nullable=False)\n    _description = db.Column('description', db.Text())\n    category = db.Column(db.String(50))\n    created_at = db.Column(db.DateTime, default=datetime.utcnow)\n    _filename = db.Column('filename', db.String(100))\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))\n    user = db.relationship('User', back_populates='documents')\n    @property",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class Category(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(255), nullable=False)\n#Добавим модели в админ\nadmin.add_view(AdminView(User, db.session))\nadmin.add_view(AdminView(Document, db.session))\nadmin.add_view(AdminView(Category, db.session))\n#Страницы templates-------------------------------------------------\n@app.route('/login', methods=['GET', 'POST'])\ndef login():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "load_user",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\n#Генерация кода для зашифирования инвормации на базе\n# key = Fernet.generate_key()\nkey = b'Y_oV0MwHgA6dlTW2rb-ZryyPZpbJ9hT5KOsT1C4M6u0='\nfernet = Fernet(key)\nprint(key)\nclass AdminView(ModelView):\n    def is_accessible(self):\n        return current_user.is_authenticated and current_user.is_admin()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def login():\n    form = Loginform()\n    if form.validate_on_submit():\n        user = User.query.filter_by(username=form.username.data).first()\n        if user and bcrypt.check_password_hash(user.password, form.password.data):\n            login_user(user)\n            return redirect(url_for('index'))\n        else:\n            return render_template('login.html', form=form)\n    return render_template('login.html', form=form)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def logout():\n\tlogout_user()\n\treturn redirect(url_for('index'))\n@app.route('/register', methods=['GET', 'POST'])\ndef register():\n\tform = Registerform()\n\t\"\"\"Кеширует пароль\"\"\"\n\tif form.validate_on_submit():\n\t\thashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')\n\t\tnew_user = User(username=form.username.data, password=hashed_password) ",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def register():\n\tform = Registerform()\n\t\"\"\"Кеширует пароль\"\"\"\n\tif form.validate_on_submit():\n\t\thashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')\n\t\tnew_user = User(username=form.username.data, password=hashed_password) \n\t\tdb.session.add(new_user)\n\t\tdb.session.commit()\n\t\treturn redirect(url_for('login'))\n\treturn render_template('register.html', form=form)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    documents = Document.query.order_by(Document.created_at.desc()).all()[:3] #сначала новые получаю\n    categorys = Category.query.all()\n    # Расшифровка данных\n    decrypted_documents = []\n    for doc in documents:\n        decrypted_doc = {\n            'id': doc.id,\n            'name': doc.name,\n            'description': doc.description,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "documents",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def documents():\n    documents = Document.query.order_by(Document.created_at.desc()).all() #сначала новые получаю\n    categorys = Category.query.all()\n    # Расшифровка данных\n    decrypted_documents = []\n    for doc in documents:\n        decrypted_doc = {\n            'id': doc.id,\n            'name': doc.name,\n            'description': doc.description,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "add_document",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def add_document():\n    categorys = Category.query.all()\n    if request.method == 'POST':\n        name = request.form.get('name')\n        description = request.form.get('description')\n        category = request.form.get('category')\n        file = request.files['file']\n        if name and file:\n            new_document = Document(name=name, description=description, filename=file.filename, user=current_user, created_at=datetime.utcnow(), category=category)\n            file_path = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(file.filename))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "add_category",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def add_category():\n    if request.method == 'POST':\n        name = request.form.get('name')\n        if name:\n            new_document = Category(name=name)\n            # базу данных\n            db.session.add(new_document)\n            db.session.commit()\n            flash('Дисциплина успешно добавлена!', 'success')\n            return redirect(url_for('index'))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///base.db'\napp.config['SECRET_KEY'] = 'avvrevf87ydvkey'\ndb = SQLAlchemy(app)\nadmin = Admin(app, template_mode='bootstrap3', name='INFBEZ')\nmigrate = Migrate(app, db)\nbcrypt = Bcrypt(app)\nadmin._menu = admin._menu[1:]\n#докеументы при загрузке(где хранить)\napp.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/files')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///base.db'\napp.config['SECRET_KEY'] = 'avvrevf87ydvkey'\ndb = SQLAlchemy(app)\nadmin = Admin(app, template_mode='bootstrap3', name='INFBEZ')\nmigrate = Migrate(app, db)\nbcrypt = Bcrypt(app)\nadmin._menu = admin._menu[1:]\n#докеументы при загрузке(где хранить)\napp.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/files')\napp.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx'}",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SECRET_KEY']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SECRET_KEY'] = 'avvrevf87ydvkey'\ndb = SQLAlchemy(app)\nadmin = Admin(app, template_mode='bootstrap3', name='INFBEZ')\nmigrate = Migrate(app, db)\nbcrypt = Bcrypt(app)\nadmin._menu = admin._menu[1:]\n#докеументы при загрузке(где хранить)\napp.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/files')\napp.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx'}\n#Для request.user",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "db = SQLAlchemy(app)\nadmin = Admin(app, template_mode='bootstrap3', name='INFBEZ')\nmigrate = Migrate(app, db)\nbcrypt = Bcrypt(app)\nadmin._menu = admin._menu[1:]\n#докеументы при загрузке(где хранить)\napp.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/files')\napp.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx'}\n#Для request.user\nlogin_manager = LoginManager()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "admin = Admin(app, template_mode='bootstrap3', name='INFBEZ')\nmigrate = Migrate(app, db)\nbcrypt = Bcrypt(app)\nadmin._menu = admin._menu[1:]\n#докеументы при загрузке(где хранить)\napp.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/files')\napp.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx'}\n#Для request.user\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "migrate",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "migrate = Migrate(app, db)\nbcrypt = Bcrypt(app)\nadmin._menu = admin._menu[1:]\n#докеументы при загрузке(где хранить)\napp.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/files')\napp.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx'}\n#Для request.user\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'login'",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "bcrypt = Bcrypt(app)\nadmin._menu = admin._menu[1:]\n#докеументы при загрузке(где хранить)\napp.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/files')\napp.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx'}\n#Для request.user\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'login'\n@login_manager.user_loader",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "admin._menu",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "admin._menu = admin._menu[1:]\n#докеументы при загрузке(где хранить)\napp.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/files')\napp.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx'}\n#Для request.user\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'login'\n@login_manager.user_loader\ndef load_user(user_id):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['UPLOAD_FOLDER']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/files')\napp.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx'}\n#Для request.user\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'login'\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\n#Генерация кода для зашифирования инвормации на базе",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['ALLOWED_EXTENSIONS']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx'}\n#Для request.user\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'login'\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\n#Генерация кода для зашифирования инвормации на базе\n# key = Fernet.generate_key()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = 'login'\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\n#Генерация кода для зашифирования инвормации на базе\n# key = Fernet.generate_key()\nkey = b'Y_oV0MwHgA6dlTW2rb-ZryyPZpbJ9hT5KOsT1C4M6u0='\nfernet = Fernet(key)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager.login_view",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "login_manager.login_view = 'login'\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\n#Генерация кода для зашифирования инвормации на базе\n# key = Fernet.generate_key()\nkey = b'Y_oV0MwHgA6dlTW2rb-ZryyPZpbJ9hT5KOsT1C4M6u0='\nfernet = Fernet(key)\nprint(key)\nclass AdminView(ModelView):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "key = b'Y_oV0MwHgA6dlTW2rb-ZryyPZpbJ9hT5KOsT1C4M6u0='\nfernet = Fernet(key)\nprint(key)\nclass AdminView(ModelView):\n    def is_accessible(self):\n        return current_user.is_authenticated and current_user.is_admin()\n    def inaccessible_callback(self, name, **kwargs):\n        return redirect(url_for('login'))\n    form_extra_fields = {\n        'role': SelectField(",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "fernet",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "fernet = Fernet(key)\nprint(key)\nclass AdminView(ModelView):\n    def is_accessible(self):\n        return current_user.is_authenticated and current_user.is_admin()\n    def inaccessible_callback(self, name, **kwargs):\n        return redirect(url_for('login'))\n    form_extra_fields = {\n        'role': SelectField(\n            'Role',",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\tusername",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\tusername = StringField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Имя\"})\n\tpassword = PasswordField(validators=[InputRequired(), Length(min=8, max=20)], render_kw={\"placeholder\": \"Пароль\"})\n\tsubmit = SubmitField('Зарегистрироваться')\n\tdef validate_username(self,username):\n\t\texisting_user_username = User.query.filter_by(username=username.data).first()\n\t\tif existing_user_username:\n\t\t\tflash('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.', 'error')\n\t\t\traise ValidationError('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.')\nclass Loginform(FlaskForm):\n\t\"\"\"Вход пользователя \"\"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\tpassword",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\tpassword = PasswordField(validators=[InputRequired(), Length(min=8, max=20)], render_kw={\"placeholder\": \"Пароль\"})\n\tsubmit = SubmitField('Зарегистрироваться')\n\tdef validate_username(self,username):\n\t\texisting_user_username = User.query.filter_by(username=username.data).first()\n\t\tif existing_user_username:\n\t\t\tflash('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.', 'error')\n\t\t\traise ValidationError('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.')\nclass Loginform(FlaskForm):\n\t\"\"\"Вход пользователя \"\"\"\n\tusername = StringField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Имя\"})",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\tsubmit",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\tsubmit = SubmitField('Зарегистрироваться')\n\tdef validate_username(self,username):\n\t\texisting_user_username = User.query.filter_by(username=username.data).first()\n\t\tif existing_user_username:\n\t\t\tflash('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.', 'error')\n\t\t\traise ValidationError('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.')\nclass Loginform(FlaskForm):\n\t\"\"\"Вход пользователя \"\"\"\n\tusername = StringField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Имя\"})\n\tpassword = PasswordField(validators=[InputRequired(), Length(min=8, max=20)], render_kw={\"placeholder\": \"Пароль\"})",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\t\texisting_user_username",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\t\texisting_user_username = User.query.filter_by(username=username.data).first()\n\t\tif existing_user_username:\n\t\t\tflash('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.', 'error')\n\t\t\traise ValidationError('Это имя пользователя уже существует. Пожалуйста, выберите другой вариант.')\nclass Loginform(FlaskForm):\n\t\"\"\"Вход пользователя \"\"\"\n\tusername = StringField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Имя\"})\n\tpassword = PasswordField(validators=[InputRequired(), Length(min=8, max=20)], render_kw={\"placeholder\": \"Пароль\"})\n\tsubmit = SubmitField('Войти')\n#Модели --------------------------------------------",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\tusername",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\tusername = StringField(validators=[InputRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Имя\"})\n\tpassword = PasswordField(validators=[InputRequired(), Length(min=8, max=20)], render_kw={\"placeholder\": \"Пароль\"})\n\tsubmit = SubmitField('Войти')\n#Модели --------------------------------------------\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    role = db.Column(db.String(20), nullable=True) \n    username = db.Column(db.String(30), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\n    documents = db.relationship('Document', back_populates='user')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\tpassword",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\tpassword = PasswordField(validators=[InputRequired(), Length(min=8, max=20)], render_kw={\"placeholder\": \"Пароль\"})\n\tsubmit = SubmitField('Войти')\n#Модели --------------------------------------------\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    role = db.Column(db.String(20), nullable=True) \n    username = db.Column(db.String(30), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\n    documents = db.relationship('Document', back_populates='user')\n    def is_admin(self):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\tsubmit",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\tsubmit = SubmitField('Войти')\n#Модели --------------------------------------------\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    role = db.Column(db.String(20), nullable=True) \n    username = db.Column(db.String(30), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\n    documents = db.relationship('Document', back_populates='user')\n    def is_admin(self):\n        return self.role == 'admin'",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\tform",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\tform = Registerform()\n\t\"\"\"Кеширует пароль\"\"\"\n\tif form.validate_on_submit():\n\t\thashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')\n\t\tnew_user = User(username=form.username.data, password=hashed_password) \n\t\tdb.session.add(new_user)\n\t\tdb.session.commit()\n\t\treturn redirect(url_for('login'))\n\treturn render_template('register.html', form=form)\n@app.route('/')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\t\thashed_password",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\t\thashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')\n\t\tnew_user = User(username=form.username.data, password=hashed_password) \n\t\tdb.session.add(new_user)\n\t\tdb.session.commit()\n\t\treturn redirect(url_for('login'))\n\treturn render_template('register.html', form=form)\n@app.route('/')\ndef index():\n    documents = Document.query.order_by(Document.created_at.desc()).all()[:3] #сначала новые получаю\n    categorys = Category.query.all()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tnew_user",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "\t\tnew_user = User(username=form.username.data, password=hashed_password) \n\t\tdb.session.add(new_user)\n\t\tdb.session.commit()\n\t\treturn redirect(url_for('login'))\n\treturn render_template('register.html', form=form)\n@app.route('/')\ndef index():\n    documents = Document.query.order_by(Document.created_at.desc()).all()[:3] #сначала новые получаю\n    categorys = Category.query.all()\n    # Расшифровка данных",
+        "detail": "app",
+        "documentation": {}
+    }
+]
